@@ -25,7 +25,7 @@ day_delta=delta(2)
 
 # 判断因闰年而多了多少天
 def RunNian(year_down,year_up):
-    sum=0
+    sum=year_range=0
     if year_down > year_up:
         year_down,year_up=year_up,year_down
         year_range = -1
